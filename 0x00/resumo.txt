@@ -1,0 +1,13 @@
+Microsserviços são aplicações simples que servem para um propósito particular e formam junto com outras aplicações de microsserviços
+um sistema mais complexo. Como cada microsserviço tem um papel distinto, o sistema se caracteriza pelo baixo acoplamento e
+consequentemente a tolerância a falhas.  Com a arquitetura monolítica, nós temos um sistema completo com o mínimo de
+separação de responsabilidade entre os componentes, onde ele é executado de uma vez e com uma base de dados centralizada.
+Diferente da abordagem monolítica, cada microsserviço executa de forma independente e possui uma base de dados específica para
+seu contexto. Os principais benefícios da arquitetura de microsserviços são seu baixo acoplamento, o alto grau de disponibilidade
+que a aplicação passa a possuir pelo fato dela não necessariamente parar de funcionar se um serviço apresenta problemas, e a
+indepencia entre os serviços que possibilita que eles cresçam de forma autônoma e se comuniquem entre si.
+Quanto os tipos de comunicação que podem ser usados entre os microsserviços, estão: a comunicação por HTTP que é o mecanismo de
+comunicação base para os outros, que se dá pela troca de requisições por meio da rede; a comunicação por mensageria que usa um
+mecanismo de fila de mensagens onde um microsserviço pode tanto processar as mensagens existentes em sua fila quanto registrar
+mensagens nas filas de outros microsserviços; e a comunicação orientada a eventos onde os microsserviços reagem a eventos
+ocorridos e também transmitem eventos para os outros microsserviços.
