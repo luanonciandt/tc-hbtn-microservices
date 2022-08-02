@@ -1,0 +1,16 @@
+	Arquitetura Serverless é um tipo de arquitetura estrutural que permite que 
+os desenvolvedores se preocupem apenas com o código das aplicações, enquanto a 
+infrastrutura que executará as aplicações é responsabilidade de provedoras deste 
+tipo de arquitetura. Esse tipo de arquitetura é possível graças aos avanços da 
+computação em nuvem e programas de virtualização em máquinas físicas. Assim, os
+desenvolvedores podem pagar o que usarem do ambiente de serverless se preocupando 
+com poucos detalhes estruturais, como implantação e monitoramento. 
+	Function as a Service (FaaS) é um tipo de serviço sob demanda na nuvem que 
+surgiu derivado da arquitetura serverless. Com FaaS, podemos usar de funções 
+orientadas a eventos sob demanda, sem precisar de um servidor on premises para
+rodá-las. 
+	Os benefícios de serverless estão no aumento da produtividade no desenvolvimento
+na redução dos custos operacionais e na facilidade de adoção de práticas DevOps
+	Cloud computing é um modelo de computação onde servidores, armazenamento, banco de dados, redes, software, entre outros modelos computacionais são oferecidos sob demanda para usuários 
+por meio da internet. Seus principais benefícios são sua diferença de custo para estruturas físicas, escala global, performance, rapidez e confiabilidade dos serviços prestados por empresas sérias no mercado.
+	A arquitetura monolítica consiste em um sistema em bloco, com um domínio fortemente acoplado, microsserviços por sua vez possui vários domínios, cada um para um microsserviço diferente, já serverless tem as suas regras de negócio e infraestrutura na nuvem, restando ao desenvolvedor o papel de desenvolver o código cliente da aplicação.
